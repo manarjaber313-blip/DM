@@ -1,0 +1,64 @@
+#p{color:red}
+h1{font-family:times new roman,
+  artical;
+font-size:40px;
+font-weight:bold;
+color:blue;
+background:lightblue;
+}
+
+p{display:block;
+tex-align:center;
+}
+
+h1{padding:20px;
+  margin-top:10px;
+  border:20px;}
+
+h1{font-family: sego UI;
+ texr-align:center;
+  font-size:25px;
+  font-weight:bold;
+  color:black;
+  letter-spacing:3px;
+  border:10px solid black;
+  line-height:4px;
+  background-color:light grey
+}
+ul{display:flex;
+justify-content:center;
+gab:50px;
+letter-space:7px;
+}
+a{color:pink;
+font-size:9px;
+letter-spaceing:4px;
+}
+table{color:grey;
+border:7px solid black;
+border-collapse:collapse;
+width:20px;
+background:pink;
+text-algn:center;
+margin:10px;
+margin-right:auto;
+margin-left:auto;
+padding:6px;
+}
+
+td{font-weight:bold;}
+
+th{font-weight:blod;}
+
+
+h2{font-fmily:times new roman,arial;
+font-size:25px;
+text align:center;}
+
+#media{
+media-width:350px;
+  margin:20px;
+ padding:20px;
+  hight:30px;
+  border:15px solid black;
+}
