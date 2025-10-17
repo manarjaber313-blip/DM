@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charest="UTF-8"/>
+    <title>Lovely Bakery Shop</title>
+      <link rel="stylesheet" href="style.css"/>
+      </head>
+      <body> 
+        
+        <nav>
+          <ul class="navbar">
+            <li><a href="#home" class="navlink">Home</a></li>
+            <li><a href="#products" class=navlink>Products</a></li>
+            <li><a href="#contact" class="navlink">Contact Us</a></li>
+          </ul>
+        </nav>
+        <section id=home class="section">
+  <img src="logo.png" alt="Logo" id="logo"/>
+         <h1>Lovely Bakery Shop</h1><br>
+          <p>selection of freshly cupcakes that can be ordered for pick-up or delivery. </p>
+        </section><hr>
+        <section id=ourmenue class="meneu">
+          <h2>Our Menue</h2>
+          <table class="table">
+            <tr>
+              <th>img</th> 
+              
+              <th>cupcakes</th>
+              
+              <th>price</th>
+              </tr>
+            
+            <tr>
+              <td><img src="img1.png" alt="creamy chocolate " class="img1"></td>
+              <td>creamy chocolat cupcake</td>
+              <td>1.5BD</td>
+            </tr>
+            <tr>
+              <td><img src="img2.png" alt="carrot " class="img2"></td>
+              <td>carrot cupcake</td>
+              <td>2BD</td>
+            </tr>
+            <tr>
+              <td><img src="img3.png" alt="Red velvet" class="img3"></td>
+              <td>red velvet cupcake</td>
+              <td>2.5BD</td>
+            </tr>
+          </table>
+        </section> <hr>
+        
+        <section id="contactus" class="section">
+          <h2>Contact Us</h2><br>
+          
+        <form id="contact">
+          <labor for="name">Your Name</labor><br>
+          <input type="text" id="name" required/></input><br><br>
+          <labor for="email">Your Email</labor><br>
+          <input type="email" id="email" required/><br><br>
+          <labor for="massege">Your masseges</labor><br>
+          <textarea id="message" rows="3" cols="100" reguired></textarea><br><br>
+          <button type="submit">Submit</button>
+          </form>
+        </section>
+  <footer><p>&copy,2025 All right reseved</p></footer>
+  <script src="script.js"></script>
+  <body>
+    </html>
